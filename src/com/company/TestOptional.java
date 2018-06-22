@@ -22,7 +22,8 @@ public class TestOptional {
     public void test1(){
         Optional<Employee> optional = Optional.of(null);
         Employee employee = optional.get();
-        System.out.println(employee);
+        System.out.println(employee + "testtest");
+
 
 
     }
